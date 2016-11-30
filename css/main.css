@@ -1,9 +1,10 @@
 body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -19,9 +20,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
+h1,h2,h3 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Rubik', sans-serif;
 }
 p {
     font-size: 1.5em;
