@@ -20,6 +20,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+h1 {
+    font-size: 3em;
+}
 h1,h2,h3 {
     font-family: 'Rubik', sans-serif;
 }
