@@ -25,6 +25,7 @@ h1 {
 }
 h1,h2,h3 {
     font-family: 'Rubik', sans-serif;
+    font-weight: normal;
 }
 p {
     line-height: 1.4em;
