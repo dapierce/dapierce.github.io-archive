@@ -53,14 +53,39 @@ ul.posts li {
 
 /*   Code Formatting    */
 
-code {
-    font-family: "Monaco", "Courier New", "Courier";
-    font-size: .9em;
-    display: block;
-    border: #aaa 1px solid;
-    border-radius: 4px;
+code, pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
-
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  /*color: #bf616a;*/
+  background: darken(#261e16, 7.5%);
+  /*background-color: #f9f9f9;*/
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin: 0 0 14px;
+  padding: 15px 20px;
+  font-size: 16px;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+/*  background-color: #f9f9f9;*/
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+ /* color: inherit;*/
+ /* background-color: transparent;*/
+}
 .highlight {
-    padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
 }
