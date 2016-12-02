@@ -42,6 +42,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-.nowrap {
+
+@media (min-width: 750px) {
+
+  .nowrap {
     white-space: nowrap;
+  }
 }
