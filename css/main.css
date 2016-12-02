@@ -50,3 +50,17 @@ ul.posts li {
     white-space: nowrap;
   }
 }
+
+/*   Code Formatting    */
+
+code {
+    font-family: "Monaco", "Courier New", "Courier";
+    font-size: .75em;
+}
+
+.highlight {
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 4px;
+    overflow-x: scroll;
+}
