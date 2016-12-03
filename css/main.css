@@ -54,7 +54,7 @@ ul.posts li {
 /*   Code Formatting    */
 
 code, pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Inconsolata, Menlo, Monaco, monospace;
 }
 code {
   padding: .25em .5em;
