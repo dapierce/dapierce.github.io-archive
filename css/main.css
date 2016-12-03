@@ -75,7 +75,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f2f2ed;
-/*  background-color: #f9f9f9;*/
+  border-radius: 10px;
 }
 pre code {
   padding: 0;
