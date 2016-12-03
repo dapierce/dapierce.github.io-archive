@@ -61,7 +61,7 @@ code {
   font-size: 85%;
   /*color: #bf616a;*/
   /*background: darken(#261e16, 7.5%);*/
-  background-color: #dee;
+  background-color: #f2f2ed;
   border-radius: 3px;
 }
 pre {
@@ -74,8 +74,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #dee;
-  border: #aaa 2px solid;
+  background-color: #f2f2ed;
 /*  background-color: #f9f9f9;*/
 }
 pre code {
