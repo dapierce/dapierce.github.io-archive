@@ -37,7 +37,7 @@ footer {
 }
 
 ul.posts {
-    margin: 20px auto 40px; 
+    margin: 20px auto 40px;
 }
 
 ul.posts li {
@@ -51,17 +51,34 @@ ul.posts li {
   }
 }
 
+/* Tables */
+
+table {
+  margin-bottom: 1rem;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: .25em 1em;
+  border: 1px solid #e5e5e5;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
 /*   Code Formatting    */
 
 code, pre {
-  font-family: Inconsolata, Menlo, Monaco, monospace;
+  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace
 }
 code {
   padding: .25em .5em;
   font-size: 85%;
   /*color: #bf616a;*/
   /*background: darken(#261e16, 7.5%);*/
-  background-color: #f2f2ed;
+  background-color: #f9f9f9;
   border-radius: 6px;
 }
 pre {
@@ -74,7 +91,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f2f2ed;
+  background-color: #f9f9f9;
   border-radius: 16px;
 }
 pre code {
