@@ -81,7 +81,7 @@ tbody tr:nth-child(odd) th {
 /*   Code Formatting    */
 
 code, pre {
-  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace
+  font-family: Menlo, Consolas, monospace
 }
 code {
   padding: .25em .5em;
