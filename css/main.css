@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   margin: 60px auto;
   width: 70%;
 }
@@ -57,9 +57,8 @@ ul.posts li {
 @media (min-width: 750px) {
 
   body {
-    font-size: 14px;
+    font-size: 18px;
   }
-  
   .nowrap {
     white-space: nowrap;
   }
