@@ -39,20 +39,40 @@ footer {
 ul.posts {
   margin: 20px auto 40px;
 }
-
 ul.posts li {
   list-style: none;
 }
 
 .title {
-  border-bottom: 1px solid #e5e5e5;
 }
 .title h1 {
-  margin-bottom: 0;
+
 }
+
+.blurb {
+}
+.portrait {
+  display: inline-block;
+  border-radius: 100%;
+  width: 46%;
+  max-width: 400px;
+  min-width: 200px;
+}
+.text {
+  display: inline-block;
+  width: 46%;
+  vertical-align: top;
+  padding: 0 4% 0 0
+}
+
 .meta {
+  margin-top: -1.4em;
+  padding-bottom: 1.4em;
   font-size: 80%;
+  border-bottom: 1px solid #e5e5e5;
 }
+
+/* Desktop Screen */
 
 @media (min-width: 750px) {
 
