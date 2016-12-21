@@ -53,14 +53,15 @@ ul.posts li {
 }
 .portrait {
   display: inline-block;
+  vertical-align: middle;
   border-radius: 100%;
   width: 46%;
   max-width: 400px;
 }
 .text {
   display: inline-block;
-  width: 46%;
   vertical-align: top;
+  width: 46%;
   padding: 0 4% 0 0
 }
 
