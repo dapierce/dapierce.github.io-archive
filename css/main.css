@@ -56,7 +56,6 @@ ul.posts li {
   border-radius: 100%;
   width: 46%;
   max-width: 400px;
-  min-width: 200px;
 }
 .text {
   display: inline-block;
