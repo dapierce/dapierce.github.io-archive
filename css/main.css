@@ -72,9 +72,9 @@ ul.posts li {
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* Desktop Screen */
+/* Tablet and Desktop Screens */
 
-@media (min-width: 750px) {
+@media (min-width: 500px) {
 
   body {
     font-size: 18px;
