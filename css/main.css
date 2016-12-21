@@ -74,16 +74,22 @@ ul.posts li {
 
 /* Tablet and Desktop Screens */
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
 
   body {
     font-size: 18px;
     margin: 60px auto;
     width: 70%;
   }
-  .nowrap {
-    white-space: nowrap;
-  }
+}
+
+
+@media (min-width: 550px) {
+
+  body {
+    .nowrap {
+      white-space: nowrap;
+    }
 }
 
 /* Quotes */
