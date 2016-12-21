@@ -60,7 +60,7 @@ ul.posts li {
 }
 .text {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   width: 46%;
   padding: 0 4% 0 0
 }
