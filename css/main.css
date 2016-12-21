@@ -81,15 +81,9 @@ ul.posts li {
     margin: 60px auto;
     width: 70%;
   }
-}
-
-
-@media (min-width: 550px) {
-
-  body {
-    .nowrap {
-      white-space: nowrap;
-    }
+  .nowrap {
+    white-space: nowrap;
+  }
 }
 
 /* Quotes */
