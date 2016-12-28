@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 1em;
   margin: 20px auto;
   width: 90%;
 }
@@ -23,8 +23,8 @@ a:hover {
 h1 {
   font-size: 3em;
 }
-h1,h2,h3 {
-  font-family: 'Rubik', sans-serif;
+h1,h2,h3,h4,h5,h6,nav,footer {
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
 p {
@@ -43,26 +43,18 @@ ul.posts li {
   list-style: none;
 }
 
-.title {
-}
-.title h1 {
-
-}
-
-.blurb {
+.subtitle {
+  font-size: .5em;
 }
 .portrait {
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
+  margin: 0 auto;
   border-radius: 100%;
-  width: 46%;
-  max-width: 400px;
+  max-width: 200px;
 }
 .text {
-  display: inline-block;
-  vertical-align: middle;
-  width: 46%;
-  padding: 0 4% 0 0
+  display: block;
+  width: 100%;
 }
 
 .meta {
@@ -74,15 +66,29 @@ ul.posts li {
 
 /* Tablet and Desktop Screens */
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
 
   body {
-    font-size: 18px;
+    font-size: 1.2em;
     margin: 60px auto;
     width: 70%;
   }
   .nowrap {
     white-space: nowrap;
+  }
+  .portrait {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 100%;
+    width: 46%;
+    margin-right: 2%;
+    max-width: 400px;
+  }
+  .text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 46%;
+    margin-left: 2%;
   }
 }
 
@@ -93,9 +99,6 @@ blockquote {
   margin: .8rem 0;
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
-}
-blockquote p:last-child {
-  margin-bottom: 0;
 }
 @media (min-width: 30em) {
   blockquote {
@@ -129,7 +132,7 @@ code, pre {
 }
 code {
   padding: .25em .5em;
-  font-size: 85%;
+  font-size: .85em;
   /*color: #bf616a;*/
   /*background: darken(#261e16, 7.5%);*/
   background-color: #f9f9f9;
@@ -140,7 +143,7 @@ pre {
   overflow: auto;
   margin: 0 0 14px;
   padding: 15px 20px;
-  font-size: 100%;
+  font-size: .8em;
   line-height: 1.4;
   background-color: #f9f9f9;
   border-radius: 12px;
@@ -148,7 +151,7 @@ pre {
 }
 pre code {
   padding: 0;
-  font-size: 100%;
+  font-size: 1em;
   /* color: inherit;*/
   /* background-color: transparent;*/
 }

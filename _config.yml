@@ -1,5 +1,6 @@
 name: David Aaron Pierce
-markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+markdown: kramdown
+highlighter: rouge
 gems:
   - jekyll-sitemap
