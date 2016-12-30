@@ -1,5 +1,7 @@
 name: David Aaron Pierce
 permalink: /blog/:year/:month/:day/:title
+collections:
+  - projects
 markdown: kramdown
 highlighter: rouge
 gems:

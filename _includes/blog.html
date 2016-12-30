@@ -1,0 +1,8 @@
+<a href="{{ post.url }}">
+  <div class="blog-entry">
+    <h3>{{ post.title }}</h3>
+    <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+    {{ post.excerpt }}
+    <p>read more...</p>
+  </div>
+</a><!-- /.{{post.id}} -->

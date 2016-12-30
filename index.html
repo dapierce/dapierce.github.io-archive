@@ -10,7 +10,7 @@ title: David Aaron Pierce
 </div><!-- /#title -->
 
 <div id="about">
-  <img class="portrait" src="/img/me.jpg" alt="It's me, David">
+  <img class="portrait" src="/assets/img/me.jpg" alt="It's me, David">
   <div class="text">
     <h2>
       Hello!
@@ -23,25 +23,19 @@ title: David Aaron Pierce
 
 <div id="projects">
   <h2>
-    Freecodecamp solutions
+    Projects
   </h2>
-  <ul>
-    <li>
-      <a href="http://codepen.io/dapierce/full/gwaoZJ/">Random Quote Machine</a>
-    </li>
-    <li>
-      <a href="/my-freecodecamp/WeatherApp/">Weather App</a>
-    </li>
-  </ul>
-  <h2>
-    Games
-  </h2>
-  <ul>
-    <li>
-      Miniwallism
-    </li>
-    <li>
-      Building Mars
-    </li>
-  </ul>
+  {% assign projects = site.projects | sort: 'listing-priority' %}
+  {% for project in projects %}
+    <h3>
+      <a href="{{ project.link }}">{{ project.name }}</a>
+    </h3>
+    {{ project.excerpt }}
+  {% endfor %}
 </div><!-- /#projects -->
+
+<div class="blog-latest">
+  <h2>Latest Blog Post</h2>
+  {% assign post = site.posts.first %}
+  {% include blog.html %}
+</div><!-- /.blog-latest -->
