@@ -69,9 +69,6 @@ ul.posts li {
   body {
     font-size: 1.2em;
   }
-  .portrait {
-    max-width: 400px;
-  }
 }
 
 @media (min-width: 600px) {
@@ -83,13 +80,17 @@ ul.posts li {
   .nowrap {
     white-space: nowrap;
   }
+  #about {
+    margin: 0 auto;
+    max-width: 800px;
+  }
   .portrait {
     display: inline-block;
     vertical-align: middle;
     border-radius: 100%;
     width: 46%;
     margin-right: 2%;
-    max-width: 300px;
+    max-width: 400px;
   }
   .text {
     display: inline-block;
