@@ -1,6 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 1.1em;
+  color: #333;
   margin: 20px auto;
   width: 90%;
 }
@@ -28,7 +29,6 @@ h1,h2,h3,h4,h5,h6,nav {
 }
 p {
   line-height: 1.4em;
-  color: #333;
 }
 footer {
   border-top: 1px solid #e5e5e5;
@@ -55,7 +55,12 @@ ul.posts li {
   display: block;
   width: 100%;
 }
-
+.post-title {
+  margin-bottom: 0;
+}
+.post-date {
+  margin-top: .4em;
+}
 .meta {
   margin-top: -1.4em;
   padding-bottom: 1.4em;
