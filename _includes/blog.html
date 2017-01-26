@@ -1,8 +1,6 @@
-<a href="{{ post.url }}">
   <div class="blog-entry">
-    <h3>{{ post.title }}</h3>
-    <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+    <a href="{{ post.url }}"><h3 id="{{ post.id }}" class="post-title">{{ post.title }}</h3>
+    <h6 class="post-date">{{ post.date | date: "%-m/%-d/%y" }}</h6></a>
     <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
-    <p>read more...</p>
-  </div>
-</a><!-- /.{{post.id}} -->
+    <a href="{{ post.url }}"><p>Read more...</p></a>
+  </div><!-- /#{{ post.id }} -->
