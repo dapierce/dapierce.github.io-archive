@@ -2,6 +2,7 @@
 layout: post
 title: "Battle of the note-takers"
 date: 2016-12-28
+published: false
 ---
 
 I use a lot of different programs to take notes, hoping they will serve my needs. And ultimately, every one I've tried serves up a perfectly functional text editor/thought space/echo chamber. But I have a sickness, and after using any program for a couple months, its small, nagging problems get more and more visible to me. These are never big deals. I shouldn't be so unnerved by the problems.

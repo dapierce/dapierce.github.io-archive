@@ -25,10 +25,12 @@ title: David Aaron Pierce
   <h2>
     Projects
   </h2>
+  <div class="project-container">
 {% assign projects = site.projects | sort: 'listing-priority' %}
 {% for project in projects %}
 {% include projects.html %}
 {% endfor %}
+  </div>
 </div><!-- /#projects -->
 
 <div id="blog-latest">

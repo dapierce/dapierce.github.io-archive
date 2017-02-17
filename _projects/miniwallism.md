@@ -7,5 +7,3 @@ listing-priority: 2
 ---
 
 A minimalistic dodging game, originally made for [Ludum Dare](http://ludumdare.com/) 26. Move right and left to dodge, combine with and hit larger walls.
-
-*(HTML5 and compatible with Chrome, Firefox and IE9+)*
