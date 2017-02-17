@@ -7,9 +7,9 @@ published: true
 
 Recently, I had an assignment to create and test various sorting algorithms with input ranges from $$ n=10^2 $$ to $$ n=10^6 $$. Thinking that the larger sets of data might get unwieldy otherwise, I selected C++ to run the tests, hoping speed would carry on to the more inefficient brute force algorithms.
 
-I didn't realize how much of a difference brute force made.
+I didn't realize how much of a difference decrease and conquer made compared to brute force. Going over the basics of Big O notation you end up with simple terms like $$ O(n^2) $$ or $$ O(n log n) $$ but the reality of these growth patterns doesn't really become obvious until you see a program chug all a of a core's cpu.
 
-### The Parameters
+### The parameters
 
 Our assignment had a few basic requirements:
 1. Compares 4 sorting algorithms: BubbleSort, Selection Sort, Shellsort and Insertion Sort.
@@ -124,10 +124,10 @@ Here are the results after running overnight (time in seconds, bold to emphasize
 |Shellsort | 0.000 |  0.000 |  0.000 |  0.003  | 0.041 |
 |Insertion Sort | 0.000 |  0.000 |  0.000 |  0.000  | 0.004 |
 
-With $$ n=10^6 $$ the differences between algorithms becomes dramatic, taking BubbleSort and Selection Sort 15-30 minutes what Shell Sort and Insertion Sort can do in a tenth of a second.
+With the input size of $$ n=10^6 $$ the differences between algorithms becomes dramatic, taking BubbleSort and Selection Sort 15-30 minutes what Shell Sort and Insertion Sort can do in a tenth of a second.
 
 A curious result keeps happening, regardless of input size, Insertion Sort always goes faster than Shellsort in my tests. This *seems* counter to [conventional wisdom](http://bigocheatsheet.com/) but perhaps C++ compiled code makes certain optimizations that improve how Insertion Sort works, or maybe the data sets I'm using give it certain advantages. In the future, I may look into different gap sequences for Shellsort, and see if by using the book's primary sequence, I actually chose a less efficient option.
 
 ### TL;DR
 
-Don't use BubbleSort or Selection Sort. Ever. Why? There are other ways to sort with five lines of code that run exponentially faster.
+Don't use BubbleSort or Selection Sort. Why? There are other ways to sort the same amount of code that will run exponentially faster.
