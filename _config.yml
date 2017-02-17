@@ -3,6 +3,8 @@ permalink: /blog/:year/:month/:day/:title
 collections:
   - projects
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 highlighter: rouge
 gems:
   - jekyll-sitemap
