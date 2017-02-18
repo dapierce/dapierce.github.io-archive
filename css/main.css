@@ -5,11 +5,11 @@ body {
   margin: 20px auto;
   width: 90%;
 }
-nav ul, footer ul {
+nav ul {
   padding: 0px;
   list-style: none;
 }
-nav ul li, footer ul li {
+nav ul li {
   display: inline;
   margin-right: 20px;
 }
@@ -31,9 +31,17 @@ p {
   line-height: 1.4em;
 }
 footer {
-  height: 100%;
   border-top: 1px solid #e5e5e5;
   font-size: .8em;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li {
+  padding: 10px 0 0 10px;
 }
 
 ul.posts {
@@ -64,6 +72,20 @@ ul.posts li {
 }
 .project-box {
   width: 100%;
+}
+.project-image img {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.contact-info {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.contact-links {
+  display: inline-block;
+  width: 49%;
 }
 
 .post-title {
