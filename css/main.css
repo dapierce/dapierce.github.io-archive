@@ -15,7 +15,7 @@ nav ul li {
 }
 a {
   text-decoration: none;
-  color: #999;
+  color: #01a2a6;
 }
 a:hover {
   text-decoration: underline;
@@ -51,7 +51,12 @@ ul.posts li {
   list-style: none;
 }
 
+#title {
+  color: #01a2a6;
+}
+
 .subtitle {
+  color: #333;
   font-size: .5em;
 }
 .portrait {
