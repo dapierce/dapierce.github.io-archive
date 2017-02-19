@@ -131,4 +131,4 @@ A curious result keeps happening, regardless of input size, Insertion Sort alway
 
 ### TL;DR
 
-Don't use BubbleSort or Selection Sort. Why? There are other ways to sort with the same amount of code that will run exponentially faster.
+Don't use BubbleSort or Selection Sort. There are other ways to sort with the same amount of code that will run exponentially faster.
