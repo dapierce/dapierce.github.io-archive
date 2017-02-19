@@ -68,7 +68,8 @@ int * insertionSort(int * A, int size) {
 
 int * shellSort(int * A, int size) {
   int g = 0;
-  int gaps[14] = { 2391484, 797161, 265720, 88573, 29524, 9841, 3280, 1093, 364, 121, 40, 13, 4, 1 };
+  int gaps[14] = { 2391484, 797161, 265720, 88573, 29524, 9841,
+                  3280, 1093, 364, 121, 40, 13, 4, 1 };
 
   // check each gap, and find the first one relevant to current input size
   while (gaps[g] > size) {
@@ -79,7 +80,7 @@ int * shellSort(int * A, int size) {
     // store current gap
     int gap = gaps[g];
     int i,j;
-    // do sort with gap
+    // do sort with current gap
     for ( i = gap; i < size; i ++) {
       int temp = A[i];
       for ( j = i; j >= gap && A[j - gap] > temp; j -= gap ) {
