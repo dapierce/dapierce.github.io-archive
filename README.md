@@ -4,6 +4,7 @@ My personal portfolio website, hosted by Github Pages and served as a static sit
 
 It uses these plugins:
 - [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
+- [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier)
 - [rouge](https://github.com/jneen/rouge)
 
 Math is rendered using [KaTeX](https://khan.github.io/KaTeX/), which I was able to integrate into Jekyll with the help of an article written by Xu Cheng: https://xuc.me/blog/KaTeX-and-Jekyll/
