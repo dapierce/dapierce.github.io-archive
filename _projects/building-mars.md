@@ -2,7 +2,7 @@
 object-id: building-mars
 name: Building Mars
 image: assets/img/building-mars.jpg
-link: https://davidaaronpierce.com/buildingmars
+link: https://davidaaronpierce.com/buildingmars/
 listing-priority: 4
 ---
 

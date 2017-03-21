@@ -2,7 +2,7 @@
 object-id: wikipedia-viewer
 name: Wikipedia Viewer
 image: assets/img/wikipedia-viewer.jpg
-link: https://dapierce.github.io/my-freecodecamp/WikipediaViewer
+link: https://dapierce.github.io/my-freecodecamp/WikipediaViewer/
 listing-priority: 5
 ---
 
