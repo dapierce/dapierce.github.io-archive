@@ -73,10 +73,9 @@ ul.posts li {
 .project-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 .project-box {
-  width: 100%;
+  padding-right: 2%;
 }
 .project-image img {
   max-width: 100%;
@@ -112,7 +111,7 @@ ul.posts li {
 
 @media (min-width: 1200px) {
   .project-box {
-    width: 32%;
+    width: 31%;
   }
 }
 @media (min-width: 900px) and (max-width: 1199px) {
