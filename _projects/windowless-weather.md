@@ -2,7 +2,7 @@
 object-id: windowless-weather
 name: Windowless Weather
 image: assets/img/windowless-weather.jpg
-link: https://dapierce.github.io/my-freecodecamp/WeatherApp/
+link: https://dapierce.github.io/my-freecodecamp/windowless-weather/
 listing-priority: 1
 ---
 
