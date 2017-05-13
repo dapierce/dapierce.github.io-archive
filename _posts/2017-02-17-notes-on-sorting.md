@@ -2,6 +2,7 @@
 layout: post
 title: "Notes on Sorting"
 date: 2017-02-17 12:12:48 -0800
+description: Four basic sorting algorithms compared using C++.
 published: true
 ---
 
