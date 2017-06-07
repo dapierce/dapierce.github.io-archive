@@ -8,7 +8,7 @@ published: true
 
 Recently, I had an assignment to create and test various sorting algorithms with input ranges from $$ n=10^2 $$ to $$ n=10^6 $$. Thinking that the larger sets of data might get unwieldy otherwise, I selected C++ to run the tests, hoping speed would carry on to the more inefficient brute force algorithms.
 
-I didn't realize how much of a difference decrease and conquer made compared to brute force. Going over the basics of Big O notation you end up with simple terms like $$ O(n^2) $$ or $$ O(n \log n) $$ but the reality of these growth patterns doesn't really become obvious until you see a program chug all a of a core's cpu.
+I didn't realize how much of a difference decrease and conquer made compared to brute force. Going over the basics of Big O notation you end up with simple terms like $$ O(n^2) $$ or $$ O(n \log n) $$ but the reality of these growth patterns doesn't really become obvious until you see a program chug all of a core's cpu.
 
 ### The parameters
 
