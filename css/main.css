@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 1em;
+  font-size: 1.2rem;
   color: #333;
   margin: 20px auto;
   width: 90%;
@@ -15,30 +15,33 @@ nav ul li {
 }
 a {
   text-decoration: none;
+  font-weight: bold;
   color: #16acb3;
 }
 a:hover {
   text-decoration: underline;
 }
 h1 {
-  font-size: 3em;
+  font-size: 3.5rem;
 }
 h1,h2,h3,h4,h5,h6,nav {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  line-height: 1em;
   letter-spacing: -.2px;
 }
 p, ul, ol {
-  line-height: 1.6em;
+  line-height: 2.2rem;
   letter-spacing: -0.2px;
   max-width: 900px;
 }
+img {
+  max-width: 100%;
+}
 footer {
   border-top: 1px solid #e5e5e5;
-  font-size: .8em;
+  font-size: 1rem;
   margin: 0 auto;
-  padding: 3em 0;
+  padding: 3rem 0;
 }
 footer ul {
   list-style: none;
@@ -61,7 +64,7 @@ ul.posts li {
 
 .subtitle {
   color: #333;
-  font-size: .5em;
+  font-size: 1.4rem;
 }
 .portrait {
   display: block;
@@ -100,13 +103,13 @@ ul.posts li {
   margin-bottom: 0;
 }
 .post-date {
-  margin-top: .6em;
+  margin-top: .6rem;
   font-size: small;
   text-transform: uppercase;
 }
 .meta {
-  margin-top: -1.4em;
-  padding-bottom: 1.4em;
+  margin-top: -1.4rem;
+  padding-bottom: 1.4rem;
   font-size: 80%;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -125,7 +128,7 @@ ul.posts li {
 }
 @media (min-width: 900px) {
   body {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     margin: 60px auto;
     width: 70%;
   }
@@ -154,7 +157,7 @@ ul.posts li {
   body {
     margin: 60px auto;
     width: 70%;
-    font-size: 1.1em;
+    font-size: 1.2rem;
   }
   .nowrap {
     white-space: nowrap;
@@ -192,7 +195,7 @@ table {
 }
 td,
 th {
-  padding: .25em 1em;
+  padding: .25rem 1rem;
   border: 1px solid #e5e5e5;
 }
 tbody tr:nth-child(odd) td,
@@ -206,8 +209,8 @@ code, pre {
   font-family: Menlo, Consolas, monospace;
 }
 code {
-  padding: .25em .5em;
-  font-size: .85em;
+  padding: .25rem .5rem;
+  font-size: .85rem;
   color: #f8f8f2;
   background-color: #272822;
   border-radius: 6px;
@@ -217,8 +220,8 @@ pre {
   overflow: auto;
   margin: 0 0 14px;
   padding: 15px 20px;
-  font-size: .8em;
-  line-height: 1.4;
+  font-size: .8rem;
+  line-height: 1.2rem;
   text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
   background-color: #272822;
   border-radius: 12px;
@@ -226,14 +229,14 @@ pre {
 }
 pre code {
   padding: 0;
-  font-size: 1em;
+  font-size: 1rem;
   /* color: inherit;*/
   /* background-color: transparent;*/
 }
 .highlight {
   margin-bottom: 15px;
   max-width: 780px;
-  margin-left: 2em;
+  margin-left: 1rem;
 }
 .highlight pre {
   margin-bottom: 0;

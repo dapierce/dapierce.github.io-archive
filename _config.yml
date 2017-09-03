@@ -6,6 +6,6 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
 highlighter: rouge
-gems:
+plugins:
   - jekyll-sitemap
-  - jekyll-minifier
+  - jemoji
