@@ -21,13 +21,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
-h1 {
-  font-size: 3.5rem;
-}
 h1,h2,h3,h4,h5,h6,nav {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   letter-spacing: -.2px;
+}
+h1 {
+  font-size: 3.5rem;
 }
 p, ul, ol {
   line-height: 2.2rem;
@@ -50,7 +50,6 @@ footer ul {
 footer ul li {
   padding: 10px 0 0 10px;
 }
-
 ul.posts {
   margin: 20px auto 40px;
 }
@@ -58,10 +57,10 @@ ul.posts li {
   list-style: none;
 }
 
-#title {
+.heading {
   color: #16acb3;
+  margin-top: 1rem;
 }
-
 .subtitle {
   color: #333;
   font-size: 1.4rem;
@@ -112,6 +111,9 @@ ul.posts li {
   padding-bottom: 1.4rem;
   font-size: 80%;
   border-bottom: 1px solid #e5e5e5;
+}
+.post h3 {
+  margin-top: 3rem;
 }
 
 /* Desktop and Tablet Screens */

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows 10 for MacOS/Linux development environment"
+title: "Windows 10, a Linux dev environment"
 date: 2017-09-02 19:34:16 -0700
 description: My personal notes and setup for Linux development using Windows 10.
 published: true
@@ -12,7 +12,7 @@ The technical nitty-gritty is that Microsoft's developers have been working on m
 
 It's been a work in progress for the past couple years, but with the Fall Creators Update it's finally gotten to a point where you can download a Ubuntu Windows Store App.
 
-![Windows Store on the Ubuntu "app"]({{ site.url }}/assets/img/2017-09-02-ubuntu-windows-store.jpg "Ubuntu, a Windows Store app?")
+[![Windows Store on the Ubuntu "app"]({{ site.url }}/assets/img/2017-09-02-ubuntu-windows-store.jpg "Ubuntu, a Windows Store app?")]({{ site.url }}/assets/img/2017-09-02-ubuntu-windows-store.jpg)
 
 Beware, it takes some amount of tuning to make it work though. First of all, using the shiny Ubuntu app from the Store requires you get on the Fall Creators Update--doing that now instead of waiting until late October means signing up with the Windows Insider Program and using potentially buggy versions of Windows.
 
@@ -60,7 +60,7 @@ And your file will open in Atom editor just like it does on the command prompt.
 
 If you're finding the vanilla Windows command window lacking, you can substitute it for any other Windows console client. Just open your preferred program and type in `bash` and it will switch to Ubuntu bash!
 
-![A screenshot of Hyper running Bash]({{site.url}}/assets/img/2017-09-02-hyper-bash.png "Hyper is a much prettier way to use Bash in Windows")
+[![A screenshot of Hyper running Bash]({{site.url}}/assets/img/2017-09-02-hyper-bash.png "Hyper is a much prettier way to use Bash in Windows")]({{site.url}}/assets/img/2017-09-02-hyper-bash.png)
 
 My own preference is [Hyper](https://hyper.is/), and Linux Bash just works out of the box and can be configured to start there by editing this part of the config file:
 
