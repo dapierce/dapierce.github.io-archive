@@ -66,6 +66,6 @@ My own preference is [Hyper](https://hyper.is/), and Linux Bash just works out o
 
 `shell: 'bash.exe',`
 
-You can find good Hyper themes and plugins here: https://github.com/bnb/awesome-hyper and add them using the config file.
+You can find good Hyper themes and plugins here: [Awesome Hyper Github](https://github.com/bnb/awesome-hyper) and add them using the config file.
 
 With these steps done, you are now ready to take your MacOS/Linux development workflow to Windows!
