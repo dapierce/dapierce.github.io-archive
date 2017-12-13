@@ -8,15 +8,11 @@ published: true
 
 Lately I've been tracking updates to Windows' Linux Subsystem, which is a surprising new chapter for Windows developers. I can now do Node/Ruby/web development the way I'm used to doing it in MacOS and Linux with Windows!
 
-The technical nitty-gritty is that Microsoft's developers have been working on making Windows interpret all of Linux's [POSIX](https://en.wikipedia.org/wiki/POSIX) system calls. These are basically APIs that date back to the 1970's and represent all of the low-level hardware interactions that Unix-based OSs use. Everything from reading and writing to files to networking to cpu threading is covered by POSIX.
+The technical nitty-gritty is that Microsoft's developers have been working on making Windows interpret all of Linux's [POSIX](https://en.wikipedia.org/wiki/POSIX) system calls. These are basically APIs that date back to the 1970's and represent all of the low-level hardware interactions that Unix-based OSs use. Everything from reading and writing files to networking to cpu threading is covered by POSIX.
 
 It's been a work in progress for the past couple years, but with the Fall Creators Update it's finally gotten to a point where you can download a Ubuntu Windows Store App.
 
 [![Windows Store on the Ubuntu "app"]({{ site.url }}/assets/img/2017-09-02-ubuntu-windows-store.jpg "Ubuntu, a Windows Store app?")]({{ site.url }}/assets/img/2017-09-02-ubuntu-windows-store.jpg)
-
-Beware, it takes some amount of tuning to make it work though. First of all, using the shiny Ubuntu app from the Store requires you get on the Fall Creators Update--doing that now instead of waiting until late October means signing up with the Windows Insider Program and using potentially buggy versions of Windows.
-
-That being said, I haven't run into any serious issues yet on my laptop, but results may vary.
 
 ### Working with files and folders
 
