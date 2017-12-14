@@ -1,7 +1,7 @@
 ---
 object-id: todo-react
 name: Todo App
-image: assets/img/todo-react.png
+image: images/todo-react.png
 link: http://rocky-gorge-23758.herokuapp.com/
 listing-priority: 2
 ---

@@ -12,7 +12,7 @@ The technical nitty-gritty is that Microsoft's developers have been working on m
 
 It's been a work in progress for the past couple years, but with the Fall Creators Update it's finally gotten to a point where you can download a Ubuntu Windows Store App.
 
-[![Windows Store on the Ubuntu "app"]({{ site.url }}/assets/img/2017-09-02-ubuntu-windows-store.jpg "Ubuntu, a Windows Store app?")]({{ site.url }}/assets/img/2017-09-02-ubuntu-windows-store.jpg)
+[![Windows Store on the Ubuntu "app"]({{ site.url }}/images/2017-09-02-ubuntu-windows-store.jpg "Ubuntu, a Windows Store app?")]({{ site.url }}/images/2017-09-02-ubuntu-windows-store.jpg)
 
 ### Working with files and folders
 
@@ -29,9 +29,7 @@ You can get to your Windows files by using `cd /mnt/c` which will get you to you
 
 To make use of your actual files, you can make [symlinks](https://en.wikipedia.org/wiki/Symbolic_link#POSIX_and_Unix-like_operating_systems) in your Ubuntu Home directory in order to work with your files in your Windows User folder. For this example, let's say you have a 'projects' folder in your Documents folder full of coding projects that you want to use in Ubuntu Bash:
 
-```
-ln -s '/mnt/c/Users/<windows username>/Documents/projects' /home/<ubuntu username>/projects
-```
+`ln -s '/mnt/c/Users/<windows username>/Documents/projects' /home/<ubuntu username>/projects`
 
 Using `ln -s` you can set up various symlinks in your Ubuntu Home directory and now you can quickly navigate to all of your important files using Bash, without having to go to /mnt/c etc. every time you start Bash.
 
@@ -56,7 +54,7 @@ And your file will open in Atom editor just like it does on the command prompt.
 
 If you're finding the vanilla Windows command window lacking, you can substitute it for any other Windows console client. Just open your preferred program and type in `bash` and it will switch to Ubuntu bash!
 
-[![A screenshot of Hyper running Bash]({{site.url}}/assets/img/2017-09-02-hyper-bash.png "Hyper is a much prettier way to use Bash in Windows")]({{site.url}}/assets/img/2017-09-02-hyper-bash.png)
+[![A screenshot of Hyper running Bash]({{site.url}}/images/2017-09-02-hyper-bash.png "Hyper is a much prettier way to use Bash in Windows")]({{site.url}}/images/2017-09-02-hyper-bash.png)
 
 My own preference is [Hyper](https://hyper.is/), and Linux Bash just works out of the box and can be configured to start there by editing this part of the config file:
 

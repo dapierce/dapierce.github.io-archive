@@ -1,7 +1,7 @@
 ---
 object-id: tisha-turner
 name: Tisha Turner
-image: assets/img/tisha-turner.jpg
+image: images/tisha-turner.jpg
 link: https://tishaturner.com/
 listing-priority: 1
 ---

@@ -1,7 +1,7 @@
 ---
 object-id: twitch-time
 name: Twitch Time
-image: assets/img/twitch-time.jpg
+image: images/twitch-time.jpg
 link: https://dapierce.github.io/my-freecodecamp/twitch-time/
 listing-priority: 3
 ---

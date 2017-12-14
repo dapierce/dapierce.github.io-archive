@@ -6,9 +6,9 @@
 	<!-- link to main stylesheet -->
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/style/main.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,700,700i|Roboto:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,700,700i|Roboto:900|Varela+Round|PT+Serif" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
 </head>
 
@@ -16,10 +16,10 @@
 
 <nav>
 	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/#projects">Projects</a></li>
-		<li><a href="/blog">Blog</a></li>
-		<li><a href="#contact">Contact</a></li>
+		<li><a class="header-link" href="/">Home</a></li>
+		<li><a class="header-link" href="/#projects">Projects</a></li>
+		<li><a class="header-link" href="/blog">Blog</a></li>
+		<li><a class="header-link" href="#contact">Contact</a></li>
 	</ul>
 </nav>
 
@@ -35,13 +35,14 @@
 			<h2>David Aaron Pierce</h2>
 			<p>Seattle, WA</p>
 		</div>
+		<!-- TODO: put inside a single row sized flex box -->
 		<div class="contact-links">
 			<ul>
 				<li><a href="mailto:hi@davidaaronpierce.com"><i class="fa fa-envelope" aria-hidden="true"></i> email</a></li>
 				<li><a href="https://github.com/dapierce"><i class="fa fa-github" aria-hidden="true"></i> github</a></li>
 				<li><a href="https://keybase.io/dapierce"><i class="fa fa-key" aria-hidden="true"></i> keybase</a></li>
 				<li><a href="https://twitter.com/da_pierce"><i class="fa fa-twitter" aria-hidden="true"></i> twitter</a></li>
-				<!-- <li><a href="http://www.linkedin.com/in/piercedavid/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li> -->
+				<li><a href="http://www.linkedin.com/in/piercedavid/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
 				<!-- <li><a href="/assets/DavidAaronPierceResume.pdf"><i class="fa fa-file" aria-hidden="true"></i> resume</a> -->
 			</ul>
 		</div>

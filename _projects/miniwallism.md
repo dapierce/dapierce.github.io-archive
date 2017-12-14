@@ -1,7 +1,7 @@
 ---
 object-id: miniwallism
 name: Miniwallism
-image: assets/img/miniwallism.jpg
+image: images/miniwallism.jpg
 link: https://davidaaronpierce.com/miniwallism/
 listing-priority: 4
 ---
