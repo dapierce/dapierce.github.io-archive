@@ -57,11 +57,13 @@ ul.posts li {
 }
 
 .header-link {
+  border-bottom: 4px solid transparent;
   text-decoration: none;
+  transition: .2s;
 }
 .header-link:hover {
-  text-decoration: none;
   border-bottom: 4px solid #5fc5b4;
+  text-decoration: none;
 }
 .image-link {
   text-decoration: none;
@@ -101,15 +103,16 @@ ul.posts li {
 .image-link-container {
   border: 4px solid rgba(0,0,0,0);
   overflow: hidden;
+  transition: .2s;
 }
 .image-link-container:hover {
   border-color: #5fc5b4;
-  transition: .4s;
 }
 .blog-header-link {
-  display: inline-block;
   border-bottom: 4px solid transparent;
+  display: inline-block;
   margin-bottom: 0;
+  transition: .2s;
 }
 .blog-header-link:hover {
   border-bottom: 4px solid #5fc5b4;
@@ -118,11 +121,11 @@ ul.posts li {
   margin-bottom: 0;
 }
 .post-date {
+  font-size: small;
+  letter-spacing: 1.4px;
   margin-top: .6rem;
   margin-bottom: 0;
   padding: 0;
-  font-size: small;
-  letter-spacing: 1.4px;
   text-transform: uppercase;
 }
 .meta {
@@ -142,11 +145,13 @@ ul.posts li {
   font-size: 2rem;
 }
 .footer-link {
+  border-bottom: 4px solid transparent;
   text-decoration: none;
+  transition: .2s;
 }
 .footer-link:hover {
-  text-decoration: none;
   border-bottom: 4px solid #fff;
+  text-decoration: none;
 }
 .icon-label {
   display: none;
