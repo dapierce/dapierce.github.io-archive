@@ -1,6 +1,6 @@
 ---
 layout: default
-title: David Aaron Pierce
+title: software & web developer
 description: Software/Web Developer in Seattle, WA. Take a look at my portfolio, projects, github and get in contact with me!
 ---
 <div id="title">
@@ -22,17 +22,17 @@ description: Software/Web Developer in Seattle, WA. Take a look at my portfolio,
   </div>
 </div><!-- /#about -->
 
-<div id="projects">
+<div id="projects-latest">
   <h2>
-    Projects
+    Latest Projects
   </h2>
   <div class="project-container">
 {% assign projects = site.projects | sort: 'listing-priority' %}
-{% for project in projects %}
+{% for project in projects limit:3 %}
 {% include projects.html %}
 {% endfor %}
   </div>
-</div><!-- /#projects -->
+</div><!-- /#projects-latest -->
 
 <div id="blog-latest">
   <h2>Latest Blog Post</h2>

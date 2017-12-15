@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>{{ page.title }}</title>
+	<title>David Aaron Pierce / {{ page.title }}</title>
 	<!-- link to main stylesheet -->
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 	<link rel="stylesheet" type="text/css" href="/style/main.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,700,700i|Roboto:900|Varela+Round|PT+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,700,700i|Varela+Round" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
 </head>
 
@@ -17,7 +17,7 @@
 <nav>
 	<ul>
 		<li><a class="header-link" href="/">Home</a></li>
-		<li><a class="header-link" href="/#projects">Projects</a></li>
+		<li><a class="header-link" href="/projects">Projects</a></li>
 		<li><a class="header-link" href="/blog">Blog</a></li>
 		<li><a class="header-link" href="#contact">Contact</a></li>
 	</ul>
@@ -33,18 +33,18 @@
 	<div id="contact">
 		<div class="contact-info">
 			<h2>David Aaron Pierce</h2>
-			<p>Seattle software/web developer</p>
+			<p>Seattle software & web developer</p>
 		</div>
 		<!-- TODO: put inside a single row sized flex box -->
 		<!-- TODO: encapsulate contact in primary color box -->
-		<div class="contact-links">
+		<div class="contact-link-list">
 			<ul>
-				<li><a href="mailto:hi@davidaaronpierce.com"><i class="fa fa-envelope" aria-hidden="true"></i><span class="icon-label"> email</span></a></li>
-				<li><a href="https://github.com/dapierce"><i class="fa fa-github" aria-hidden="true"></i><span class="icon-label"> github</span></a></li>
-				<li><a href="https://keybase.io/dapierce"><i class="fa fa-key" aria-hidden="true"></i><span class="icon-label"> keybase</span></a></li>
-				<li><a href="https://twitter.com/da_pierce"><i class="fa fa-twitter" aria-hidden="true"></i><span class="icon-label"> twitter</span></a></li>
-				<li><a href="http://www.linkedin.com/in/piercedavid/"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span class="icon-label"> LinkedIn</span></a></li>
-				<!-- <li><a href="/assets/DavidAaronPierceResume.pdf"><i class="fa fa-file" aria-hidden="true"></i><span class="icon-label"> resume</span></a> -->
+				<li><a class="footer-link" href="mailto:hi@davidaaronpierce.com"><i class="fa fa-envelope" aria-hidden="true" title="email"></i><span class="icon-label"> email</span></a></li>
+				<li><a class="footer-link" href="https://github.com/dapierce"><i class="fa fa-github" aria-hidden="true" title="github"></i><span class="icon-label"> github</span></a></li>
+				<li><a class="footer-link" href="https://keybase.io/dapierce"><i class="fa fa-key" aria-hidden="true" title="keybase"></i><span class="icon-label"> keybase</span></a></li>
+				<li><a class="footer-link" href="https://twitter.com/da_pierce"><i class="fa fa-twitter" aria-hidden="true" title="twitter"></i><span class="icon-label"> twitter</span></a></li>
+				<li><a class="footer-link" href="http://www.linkedin.com/in/piercedavid/"><i class="fa fa-linkedin-square" aria-hidden="true" title="linkedin"></i><span class="icon-label"> linkedin</span></a></li>
+				<!-- <li><a href="/DavidAaronPierceResume.pdf"><i class="fa fa-file" aria-hidden="true" title="résumé"></i><span class="icon-label"> résumé</span></a> -->
 			</ul>
 		</div>
 	</div>
