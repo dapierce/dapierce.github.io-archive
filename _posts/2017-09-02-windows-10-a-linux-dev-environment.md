@@ -56,10 +56,10 @@ If you're finding the vanilla Windows command window lacking, you can substitute
 
 [![A screenshot of Hyper running Bash]({{site.url}}/images/2017-09-02-hyper-bash.png "Hyper is a much prettier way to use Bash in Windows")]({{site.url}}/images/2017-09-02-hyper-bash.png)
 
-My own preference is [Hyper](https://hyper.is/), and Linux Bash just works out of the box and can be configured to start there by editing this part of the config file:
+My own preference is [Hyper](https://hyper.is/), which allows for tabbed terminals and has great color and theming options. Linux Bash works out of the box and if you want Hyper to start in bash, it can be configured by editing this part of the config file:
 
 `shell: 'bash.exe',`
 
-You can find good Hyper themes and plugins here: [Awesome Hyper Github](https://github.com/bnb/awesome-hyper) and add them using the config file.
+You can find good Hyper themes and plugins here: [Awesome Hyper Github](https://github.com/bnb/awesome-hyper) and add them using the config file :sunglasses:
 
 With these steps done, you are now ready to take your MacOS/Linux development workflow to Windows!
