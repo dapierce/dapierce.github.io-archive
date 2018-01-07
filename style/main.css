@@ -5,6 +5,9 @@ body {
   margin: 20px auto;
   width: 90%;
 }
+nav {
+  font-size: 1rem;
+}
 nav ul {
   list-style: none;
   padding: 0px;
@@ -127,7 +130,7 @@ ul.posts li {
   padding: 0;
   text-transform: uppercase;
 }
-.meta {
+.meta { 
   border-bottom: 1px solid #e5e5e5;
   font-size: 80%;
   margin-top: -1.4rem;
@@ -175,6 +178,9 @@ ul.posts li {
     margin: 60px auto;
     width: 70%;
   }
+  nav {
+    font-size: 1.3rem;
+  }
   h1 {
     font-size: 3.5rem;
   }
@@ -209,6 +215,9 @@ ul.posts li {
   body {
     margin: 60px auto;
     width: 80%;
+    font-size: 1.1rem;
+  }
+  nav {
     font-size: 1.1rem;
   }
   h1 {
