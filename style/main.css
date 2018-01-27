@@ -2,11 +2,10 @@ body {
   color: #444;
   font-family: 'Lato', sans-serif;
   font-size: 1.2rem;
-  margin: 20px auto;
-  width: 90%;
 }
 nav {
   font-size: 1rem;
+  margin-top: 20px;
 }
 nav ul {
   list-style: none;
@@ -15,6 +14,11 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 20px;
+}
+main, nav, footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 a {
   color: #5fc5b4;
@@ -148,6 +152,7 @@ ul.posts li {
 }
 .footer-link {
   border-bottom: 4px solid transparent;
+  padding-bottom: 4px;
   text-decoration: none;
   transition: .2s;
 }
@@ -162,12 +167,12 @@ ul.posts li {
 
 /* Desktop and Tablet Screens */
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   .project-box {
     width: 31%;
   }
 }
-@media (min-width: 900px) and (max-width: 1199px) {
+@media (min-width: 900px) and (max-width: 1099px) {
   .project-box {
     width: 46%;
   }
@@ -175,11 +180,15 @@ ul.posts li {
 @media (min-width: 900px) {
   body {
     font-size: 1.3rem;
-    margin: 60px auto;
-    width: 70%;
   }
   nav {
     font-size: 1.3rem;
+    margin-top: 60px;
+  }
+  main, nav, footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
   h1 {
     font-size: 3.5rem;
@@ -213,12 +222,16 @@ ul.posts li {
 @media (min-width: 600px) and (max-width: 899px) {
 
   body {
-    margin: 60px auto;
-    width: 80%;
     font-size: 1.1rem;
   }
   nav {
     font-size: 1.1rem;
+    margin-top: 60px;
+  }
+  main, footer, nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
   h1 {
     font-size: 3rem;
@@ -289,7 +302,7 @@ pre {
   display: block;
   overflow: auto;
   margin: 0 0 14px;
-  padding: 15px 20px;
+  padding: 4%;
   font-size: .9rem;
   line-height: 1.2rem;
   text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
@@ -305,11 +318,22 @@ pre code {
 }
 .highlight {
   margin-bottom: 15px;
-  max-width: 780px;
-  margin-left: 1rem;
+  max-width: 104%;
+  margin-left: -2%
 }
 .highlight pre {
   margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  pre {
+    padding: 15px 20px;
+  }
+  .highlight {
+    margin-bottom: 15px;
+    max-width: 780px;
+    margin-left: 1rem;
+  }
 }
 
 /* Code Syntax Highlighting from https://github.com/jwarby/jekyll-pygments-themes/ */
