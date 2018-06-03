@@ -1,7 +1,7 @@
     <div id="{{ project.object-id }}" class="project-box">
       <h3 class="project-title"><a class="header-link" href="{{ project.link }}">{{ project.title }}</a></h3>
       <div class="image-link-container">
-        <a href="{{ project.link }}"><img class="image-link" src="{{ site.url }}/{{ project.image }}"></a>
+        <a href="{{ project.link }}"><img class="image-link" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}"></a>
       </div>
       <div class="project-text">
         {{ project.content }}
