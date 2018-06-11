@@ -30,10 +30,10 @@ You can get to your Windows files by using `cd /mnt/c` which will get you to you
 To make use of your actual files, you can make [symlinks](https://en.wikipedia.org/wiki/Symbolic_link#POSIX_and_Unix-like_operating_systems) in your Ubuntu Home directory in order to work with your files in your Windows User folder. For this example, let's say you have a 'projects' folder in your Documents folder full of coding projects that you want to use in Ubuntu Bash:
 
 ```
-ln -s '/mnt/c/Users/<windows username>/Documents/projects' /home/<ubuntu username>/projects
+ln -s '/mnt/c/Users/<windows username>/Documents/projects' ~/projects
 ```
 
-Using `ln -s` you can set up various symlinks in your Ubuntu Home directory and now you can quickly navigate to all of your important files using Bash, without having to go to /mnt/c etc. every time you start Bash.
+Using `ln -s` you can set up various symlinks in your Ubuntu Home directory, represented as `~/` in bash. Now you can quickly navigate to all of your important files using Bash, without having to go to /mnt/c etc. every time you start Bash, it's all at your starting `~$` prompt!
 
 ### Setting up your environment
 
