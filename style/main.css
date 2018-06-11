@@ -44,6 +44,8 @@ main ul, main ol {
 }
 img {
   max-width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 footer {
   background: linear-gradient(140deg, #5fc5b4 15%, #33ccff);
@@ -80,6 +82,8 @@ ul.posts li {
   text-decoration: none;
   transform: translate(0) rotate(0) scale(1);
   transition: .2s ease-out;
+  height: 100%;
+  width: 100%;
 }
 .image-link:hover {
   transform: translate(0, 2%) rotate(-4deg) scale(1.2);
@@ -115,6 +119,7 @@ ul.posts li {
   border: 4px solid rgba(0,0,0,0);
   overflow: hidden;
   transition: .2s;
+  height: 12rem;
 }
 .image-link-container:hover {
   border-color: #5fc5b4;
