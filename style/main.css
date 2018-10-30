@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6,nav {
   font-family: 'Poppins', sans-serif;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 p {
   line-height: 2.2rem;
@@ -90,13 +90,19 @@ ul.posts li {
   transition: .4s ease-out;
 }
 .heading {
-  color: #5fc5b4;
   margin-top: 1rem;
 }
 .subtitle {
-  color: #444;
-  font-size: 1.4rem;
+  color: rgb(100, 98, 98);
+  font-size: 1.2rem;
 }
+
+.gradient {
+  background: linear-gradient(140deg, #5fc5b4 15%, #33ccff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .portrait {
   border-radius: 100%;
   display: block;
@@ -182,12 +188,12 @@ ul.posts li {
     width: 31%;
   }
 }
-@media (min-width: 900px) and (max-width: 1099px) {
+@media (min-width: 925px) and (max-width: 1099px) {
   .project-box {
     width: 46%;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 925px) {
   body {
     font-size: 1.3rem;
   }
@@ -201,7 +207,10 @@ ul.posts li {
     width: 70%;
   }
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+  }
+  .subtitle {
+    font-size: 1.6rem;
   }
   #about {
     margin: 0 auto;
@@ -229,13 +238,13 @@ ul.posts li {
   }
 }
 
-@media (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 600px) and (max-width: 924px) {
 
   body {
     font-size: 1.1rem;
   }
   nav {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 60px;
   }
   main, footer, nav {
@@ -245,6 +254,9 @@ ul.posts li {
   }
   h1 {
     font-size: 3rem;
+  }
+  .subtitle {
+    font-size: 1.4rem;
   }
   .nowrap {
     white-space: nowrap;
