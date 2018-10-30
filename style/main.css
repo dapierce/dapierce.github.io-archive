@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6,nav {
   font-family: 'Poppins', sans-serif;
 }
 h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 p {
   line-height: 2.2rem;
@@ -272,6 +272,13 @@ ul.posts li {
   }
   .icon-label {
     display: inherit;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  
+  h1 {
+    font-size: 2.2rem;
   }
 }
 
