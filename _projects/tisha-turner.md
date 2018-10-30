@@ -6,4 +6,4 @@ link: https://tishaturner.com/
 listing-priority: 1
 ---
 
-A portfolio website for my wife, featuring galleries of her work, modified from a [Start Bootstrap](https://startbootstrap.com/) project.
+A portfolio website for my wife, featuring galleries of her styling and illustration work.
