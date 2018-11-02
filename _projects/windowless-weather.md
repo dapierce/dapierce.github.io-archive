@@ -6,4 +6,4 @@ link: https://dapierce.github.io/my-freecodecamp/windowless-weather/
 listing-priority: 6
 ---
 
-Simple weather web app that polls your local time and location and gives a pleasant display of the current weather with time-of-day specific colors.
+Designed and built from scratch using HTML, CSS and jQuery JS. It's a simple weather web app that polls your local time and location and displays a pleasant icon of the current weather with time-of-day specific colors.
