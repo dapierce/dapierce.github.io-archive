@@ -1,7 +1,7 @@
 ---
 object-id: kismet-salon
 name: Kismet Salon
-image: images/kismetsalon1.jpg
+image: images/kismet-salon1.png
 link: https://www.salonkismet.com/
 listing-priority: 2
 ---
