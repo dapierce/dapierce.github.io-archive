@@ -1,4 +1,4 @@
-# [dapierce.github.io](https://dapierce.github.io)
+# dapierce.github.io Archive - my old Jekyll site
 
 My personal website, hosted using Github Pages and served as a static site by [Jekyll](https://jekyllrb.com/).
 
